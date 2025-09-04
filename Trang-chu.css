@@ -1,0 +1,128 @@
+/* 'pink': {
+    '50': '#fff1f4',
+    '100': '#ffe3e9',
+    '200': '#ffccd8',
+    '300': '#ffb3c6',
+    '400': '#fe6e95',
+    '500': '#f83b73',
+    '600': '#e51960',
+    '700': '#c20e51',
+    '800': '#a20f4b',
+    '900': '#8b1046',
+    '950': '#4e0321',
+}, */
+body {
+  background: linear-gradient(to left, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+  font-family: "K2D", sans-serif;
+}
+
+hr {
+  box-shadow: 0.5px 1px hsl(0, 0%, 0%);
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  text-shadow: 1px 2px 2px hsl(0, 0%, 0%);
+  text-align: center;
+  font-size: 50px;
+  transition: transform 0.7s;
+  width: 35vw;
+  margin-left: 30vw;
+}
+
+h1:hover {
+  text-shadow: 2px 3px 3px hsl(0, 0%, 0%);
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.box1 {
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: 0.5px 1px 1px hsl(0, 0%, 0%);
+}
+
+.item1:hover {
+  text-decoration: underline;
+}
+
+.item2:hover {
+  text-decoration: underline;
+}
+
+.item3:hover {
+  text-decoration: underline;
+}
+
+.item4 {
+  text-shadow: none;
+  font-size: 1.2rem;
+}
+
+.box2 {
+  position: relative;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 2px 2px hsl(0, 0%, 0%),
+    3px 5px 5px 0.4px hsl(0, 0%, 20%);
+  padding: 20px;
+  background: linear-gradient(to left, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+}
+
+.object {
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: transform 0.7s;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.object:hover {
+  transform: scale(1.2);
+  text-shadow: 0.5px 0.5px 1px hsl(0, 0, 0%);
+}
+
+.paragraph {
+  position: relative;
+  left: 20vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60vw;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 0.4px hsl(0, 0%, 0%),
+    -1px -2px 2px 0.4px hsl(0, 0%, 0%);
+  font-size: 30px;
+}
+
+.para1 {
+  padding: 20px;
+  text-align: justify;
+}
+
+.para2 {
+  margin-bottom: 80px;
+}
+
+.button {
+  background: linear-gradient(to left, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+  width: 120px;
+  height: 80px;
+  font-size: 1em;
+  font-family: "K2D";
+  box-sizing: border-box;
+  margin-bottom: 60px;
+  border-radius: 10%;
+}
+
+.button:hover {
+  background: linear-gradient(to right, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+}

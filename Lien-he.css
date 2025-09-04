@@ -1,0 +1,107 @@
+/* 'pink': {
+    '50': '#fff1f4',
+    '100': '#ffe3e9',
+    '200': '#ffccd8',
+    '300': '#ffb3c6',
+    '400': '#fe6e95',
+    '500': '#f83b73',
+    '600': '#e51960',
+    '700': '#c20e51',
+    '800': '#a20f4b',
+    '900': '#8b1046',
+    '950': '#4e0321',
+}, */
+body {
+  background: linear-gradient(to left, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+  font-family: "K2D", sans-serif;
+}
+
+hr {
+  box-shadow: 0.5px 1px hsl(0, 0%, 0%);
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  text-shadow: 1px 2px 2px hsl(0, 0%, 0%);
+  text-align: center;
+  font-size: 50px;
+  transition: transform 0.7s;
+}
+
+h1:hover {
+  text-shadow: 2px 3px 3px hsl(0, 0%, 0%);
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.box2 {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 2px 2px hsl(0, 0%, 0%),
+    3px 5px 5px 0.4px hsl(0, 0%, 20%);
+  padding: 20px;
+  background: linear-gradient(to left, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+}
+
+.object {
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: transform 0.7s;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.object:hover {
+  transform: scale(1.2);
+  text-shadow: 0.5px 0.5px 1px hsl(0, 0, 0%);
+}
+
+.summary {
+  font-size: 65px;
+  margin-top: 20px;
+  margin-left: 10vw;
+}
+
+.connect {
+  display: grid;
+  grid-template: 3/1;
+  justify-content: center;
+  align-content: center;
+  font-size: 40px;
+  gap: 10px;
+  border: 1px solid hsl(0, 0%, 0%);
+  box-shadow: 1px 2px 2px 0.5px hsl(0, 0%, 20%);
+  border-radius: 16px;
+  margin-top: 4vw;
+  margin-left: 10vw;
+  padding: 40px;
+  width: 800px;
+}
+
+.connect:hover {
+  box-shadow: 2px 4px 4px 0.3px hsl(0, 0%, 40%);
+}
+
+.connect:active {
+  box-shadow: -1px -2px 2px 0.3px hsl(0, 0%, 40%);
+}
+
+.item a:hover {
+  color: hsl(360, 100%, 40%);
+  text-shadow: 0.5px 1.3px 0.5px hsl(360, 1000%, 40%);
+  transform: scale(1.2);
+}
+
+.item a:active {
+  color: hsl(240, 100%, 50%);
+}
+
+.item {
+  border-bottom: 2px solid hsl(0, 0%, 0%);
+}
