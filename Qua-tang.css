@@ -66,13 +66,54 @@ hr {
   text-shadow: 0.5px 0.5px 1px hsl(0, 0, 0%);
 }
 
-.content {
+.gift {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gift__img {
+  width: 25vw;
+  height: auto;
+}
+
+.picture1 {
+  animation: fadeInLeft 2s forwards;
+}
+
+.picture2 {
+  animation: fadeInRight 2s forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-30px) scale(0.4) rotate(360deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(30px) scale(0.4) rotate(-360deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.gift__content {
   display: flex;
   flex-wrap: wrap;
   text-align: justify;
   border: 1px solid hsl(0, 0%, 0%);
-  width: 60vw;
+  width: 50vw;
   padding: 25px;
-  margin-left: 20vw;
   font-size: 1.5em;
 }

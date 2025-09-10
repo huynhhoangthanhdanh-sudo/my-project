@@ -28,6 +28,7 @@ h1 {
   transition: transform 0.7s;
   width: 35vw;
   margin-left: 30vw;
+  animation: fadeIn 1s forwards;
 }
 
 h1:hover {
@@ -125,4 +126,21 @@ a {
 
 .button:hover {
   background: linear-gradient(to right, hsl(347, 100%, 95%), hsl(346, 100%, 90%), hsl(345, 100%, 85%), hsl(344, 99%, 71%));
+}
+
+@keyframes fadeIn {
+  0% {
+    color: hsl(339, 80%, 50%);
+    transform: translateY(-100px);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: translateY(0px), scale(1);
+    color: hsl(0, 0%, 100%);
+    text-shadow: 1px 2px 2px hsl(0, 0%, 0%);
+  }
 }
